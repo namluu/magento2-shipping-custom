@@ -1,0 +1,29 @@
+{
+  "name": "isobar/module-shipping-custom",
+  "description": "A Magento 2 module that allows a customer to checkout with custom shipping method.",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0",
+    "squizlabs/php_codesniffer": "2.6.2",
+    "magento/marketplace-eqp": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Isobar\\ShippingCustom\\": ""
+    }
+  }
+}
